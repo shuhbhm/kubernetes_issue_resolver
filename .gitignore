@@ -1,0 +1,29 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Data
+data/
+
+# Notebooks
+*.ipynb
+
+# Logs / temp
+*.log
+tmp/
+.cache/
+
+# Kubernetes secrets
+kubernetes
+kubernetes/secrets.yaml
+*.pem
+*.key
+*.crt
+
+# IDE
+.vscode/
+.idea/
